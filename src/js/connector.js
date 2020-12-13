@@ -5,6 +5,7 @@ window.TrelloPowerUp.initialize({
     // return an array of card badges for the given card
     return t.card()
       .then(function (card) {
+        console.log(card);
         return fetch('https://hidden-dawn-50339.herokuapp.com/echo', {
           method: 'POST',
           headers: {
