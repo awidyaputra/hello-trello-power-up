@@ -1,0 +1,13 @@
+# Not using yarn Zero-installs
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# ParcelJS cache
+.parcel-cache/
+
+# ParcelJS build folder
+dist/

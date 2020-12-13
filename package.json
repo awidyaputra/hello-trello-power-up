@@ -1,0 +1,13 @@
+{
+  "name": "hello-trello-power-up",
+  "version": "1.0.0",
+  "author": "Aulia Widyaputra <aulia.widyaputra@gmail.com>",
+  "description": "Hello world Power-Up for Trello",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/html/*.html"
+  },
+  "devDependencies": {
+    "parcel": "next"
+  }
+}
